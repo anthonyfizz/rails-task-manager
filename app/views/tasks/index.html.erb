@@ -1,9 +1,30 @@
-<h1>My Tasks 🚀</h1>
+<body>
+
+<div class="title">
+  <h1>My Tasks 🚀</h1>
+</div>
+<br>
+<br>
+<br>
 
 
 <ul>
   <% @tasks.each do |task| %>
   <p><%= task.completed? ? "✅" : "❌" %>
-  <%= task.title %></p>
+  <%= link_to task.title, task_path(task) %>
+  <%= link_to "     🛠", edit_task_path(task), class:"update"  %>
+  <%= link_to "     Delete  🔴 ",
+            task_path(task),
+            method: :delete,
+            data: { confirm: "Are you sure?" } %>
+  </p>
   <% end %>
 </ul>
+<br>
+<br>
+<br>
+
+<ul>
+ <p><%= link_to "+ Create a new task", tasks_new_path, class:"link" %></p>
+</ul>
+</body>

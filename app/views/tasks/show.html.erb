@@ -1,0 +1,11 @@
+<body class="show">
+
+<h2><%= @task.title %>
+<%= @task.completed? ? "✅" : "❌" %></h2>
+<br>
+<p><%= @task.details %></p>
+<br>
+<%= link_to "List tasks", tasks_path, class:"btn3"%>
+<br>
+
+</body>

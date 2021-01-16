@@ -1,3 +1,115 @@
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.update {
+    background-color: #EEEEEE;
+    padding: 4px 4px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+
+
+}
+
+.btn2 {
+    background-color: #EEEEEE;
+    padding: 6px 16px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:10px;
+    cursor:pointer;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+
+
+
+}
+.btn3 {
+
+    background-color: #EEEEEE;
+    padding: 6px 16px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:10px;
+    cursor:pointer;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+
+
+}
+.edit {
+
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.new{
+
+  display: flex;
+  justify-content: center;
+  text-align: left;
+
+
+}
+.submit {
+    background-color: #EEEEEE;
+    padding: 6px 16px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:10px;
+    cursor:pointer;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+
+}
+
+
+
+.link {
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    color: black;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.title {
+  background-color: rgb(206, 198, 198);
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  display: flex;
+  text-align: ce
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+.show {
+
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+
+  background-image: url('https://www.southernharmonysoftwash.com/fbm-data/images/banner/wood-lite-bg.jpg');
+}
